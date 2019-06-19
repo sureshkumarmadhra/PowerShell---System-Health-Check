@@ -1,0 +1,78 @@
+HealthCheckUpType,ServerName,Service
+Service,JSY-ECMICCVA01,ibm.ctms.cmv8.Connector
+Service,JSY-ECMICCVA01,ibm.ctms.datastore_monitor
+Service,JSY-ECMICCVA01,ibm.ctms.discovery
+Service,JSY-ECMICCVA01,ibm.ctms.lotusconnector
+Service,JSY-ECMICCVA01,ibm.ctms.metadataconnector
+Service,JSY-ECMICCVA01,ibm.ctms.soliddb_datastore
+Service,JSY-ECMICCVA01,ibm.ctms.taskrouteservice
+Service,JSY-ECMICCVA01,ibm.ctms.ui
+Service,JSY-ECMICCVA01,ibm.ctms.utilityconnector.UtilityConnector
+Service,JSY-ECMICCVA01,ibm.ctms.webserviceconnector
+Service,JSY-ECMICCVA02,ibm.ctms.cmv8.Connector
+Service,JSY-ECMICCVA02,ibm.ctms.datastore_monitor
+Service,JSY-ECMICCVA02,ibm.ctms.discovery
+Service,JSY-ECMICCVA02,ibm.ctms.lotusconnector
+Service,JSY-ECMICCVA02,ibm.ctms.metadataconnector
+Service,JSY-ECMICCVA02,ibm.ctms.soliddb_datastore
+Service,JSY-ECMICCVA02,ibm.ctms.taskrouteservice
+Service,JSY-ECMICCVA02,ibm.ctms.ui
+Service,JSY-ECMICCVA02,ibm.ctms.utilityconnector.UtilityConnector
+Service,JSY-ECMICCVA02,ibm.ctms.webserviceconnector
+Service,JSY-ECMKFXVA002,Ascent Capture Service
+Service,JSY-ECMKFXVA002,Kofax Capture Export
+Service,JSY-ECMKFXVA002,Kofax Capture Import Connector - XML
+Service,JSY-ECMKFXVA002,Kofax Capture PDF Generator
+Service,JSY-ECMKFXVA002,Kofax Capture PDF Generator:2
+Service,JSY-ECMKFXVA002,Kofax Capture Recognition Server
+Service,JSY-ECMKFXVA002,Server Scheduler
+Service,JSY-ECMKFXVA002,ACEIService
+Service,JSY-ECMKFXVA001,Ascent Capture Service
+Service,JSY-ECMKFXVA001,Kofax Capture Export
+Service,JSY-ECMKFXVA001,Kofax Capture Import Connector - XML
+Service,JSY-ECMKFXVA001,Kofax Capture PDF Generator
+Service,JSY-ECMKFXVA001,Kofax Capture PDF Generator:2
+Service,JSY-ECMKFXVA001,Kofax Capture Recognition Server
+Service,JSY-ECMKFXVA001,Server Scheduler
+Service,JSY-ECMKCNVA002,Ascent Capture Service
+Service,JSY-ECMKCNVA002,Server Scheduler
+Service,JSY-ECMICMVA02,ICM88ProcessManager
+Service,JSY-ECMICMVA02,ICM88Trace
+Service,JSY-ECMICMVA01,ICM88ProcessManager
+Service,JSY-ECMICMVA01,ICM88Trace
+Service,JSY-ECMRMGPA02,IBMWAS70Service - JSY-ECMRMGPA02Node01
+Service,JSY-ECMRMGPA01,IBMWAS70Service - JSY-ECMRMGPA01Node01
+Service,USA-ECMKFXVP002,ACIS Remote Synchronization Agent
+Service,USA-ECMKFXVP002,Ascent Capture Service
+Service,USA-ECMKFXVP002,MSSQL$KOFAXCAP2008R2
+Service,Ind-ECMKFXVP001,ACIS Remote Synchronization Agent
+Service,Ind-ECMKFXVP001,Ascent Capture Service
+Service,Ind-ECMKFXVP001,MSSQL$KOFAXCAP2008R2
+Service,JSY-ECMMTRVA02,IBMWAS70Service - JSY-ECMMTRVA02Node01
+Service,JSY-ECMMTRVA01,IBMWAS70Service - JSY-ECMMTRVA01Node01
+Process_JavaAppsOn_Interfaces,JSY-ECMITIVA01,java  main.CPAAutoLinking
+Process_JavaAppsOn_Interfaces,JSY-ECMITIVA01,java  main.CPAPRSPromailImport
+Process_JavaAppsOn_Interfaces,JSY-ECMITIVA01,java  main.CPANGBRemindersImport
+Process_JavaAppsOn_Interfaces,JSY-ECMITIVA01,java  main.CPAPRSSessionImport
+Process_Interface,JSY-ECMITIVA02,CPA_Import.exe
+Process_Interface,JSY-ECMITIVA02,ICMCLI
+Process_Interface,JSY-ECMITIVA02,CPA_FaxExportToCM.exe
+Process_Interface,JSY-ECMITIVA02,ICMVIE
+Process_Interface,JSY-ECMITTVA02,TMIntegration.exe
+Process_Interface,JSY-ECMITTVA02,TM_IMPORT.exe
+Process_Interface,JSY-ECMITTVA02,ICMVIE
+Process_Interface,JSY-ECMITTVA02,ICMCLI
+Drive,JSY-ECMITIVA02,S:\\int.cpaglobal.net\india-data\PRS Session and Documents
+Drive,JSY-ECMITIVA02,U:\\int.cpaglobal.net\UserData\Users-JSY\ecmapplications
+Drive,JSY-ECMITIVA02,Y:\\int.cpaglobal.net\corpdata\PRS-Print\ECM
+Drive,JSY-ECMITIVA02,Z:\\qcpaglobe\logicalis
+Drive,JSY-ECMITIVA01,K:\\int.cpaglobal.net\India-Data\Cash Applications\ECM LINKING
+Drive,JSY-ECMITIVA01,S:\\int.cpaglobal.net\india-data\PRS Session and Documents
+Drive,JSY-ECMITIVA01,U:\\int.cpaglobal.net\UserData\Users-JSY\ecmapplications
+Drive,JSY-ECMITIVA01,X:\\int.cpaglobal.net\corpdata\PRS-Print\ECM
+RMOfflineFlag,JSY-ECMCMSLA02,JSY-ECMRMGPA01
+RMOfflineFlag,JSY-ECMCMSLA02,JSY-ECMRMGPA02
+URLMonitoring,JSY-ECMRMGPA01,http://jsy-ecmrmgpa01:9080/icmrm/ICMResourceManager
+URLMonitoring,JSY-ECMRMGPA02,http://jsy-ecmrmgpa02:9080/icmrm/ICMResourceManager
+URLMonitoring,JSY-ECMMTRVA02,"http://jsy-ecmmtrva02:9080/cmemail/GetDocsFromCMFolder?pid0=88%203%20ICM8%20PRANLSDB7%20FLR_MSS61%2026%20A1001001A14H05A21102A8646618%20A14H05A21102A864663%202584%202260&emailOption=r&attachmentPIDs=
+"
