@@ -7,6 +7,9 @@ Introduction
 The Powershell script perform daily health checkup of different Windows Objects (Services, Filesystem, shared-drive etc) and generate a report in csv which will mailed to respective resolving team for further action. The script check their current status and update the csv file. kup is performed by our Support Team resource.  The script generates the report mentioning the status of Qlikview Services and will be mailed for reference checks.
 
 
+Version: Powershell 4.0
+-----------------------------
+
 Functionality:
 --------------
 
